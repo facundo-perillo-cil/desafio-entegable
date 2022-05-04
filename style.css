@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62,5%;
+}
+/*body {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.508), rgba(0, 0, 0, 0.494)), url(../Img/laboratorio\ index.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+    background-attachment: fixed;
+}*/
+
+/*------header/nav-----*/
+.bg-nav {
+    background-color: #1a3c40c5;
+    /*display: flex;
+    justify-content: space-between;
+    align-items: center;*/
+}
+.header nav ul {
+    list-style: none;
+    display: flex;
+    
+}
+.header nav ul li {
+    padding: 2rem;
+    margin-left: 2rem;
+}
+.header nav ul li a {
+    text-decoration: none;
+    color: #E5EFC1;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+    font-size: 1rem;
+}
+
+header nav ul li a:hover {
+    color: #22577E;
+    text-shadow: none;
+    transition: 1s;
+
+}
+header div a img {
+    width: 4rem;
+    height: auto;
+}
+
+/*----main-----*/
+
+.main {
+    /*margin-left: 2rem;
+    margin-top: 4rem;*/
+    color: #E5EFC1;
+    text-shadow: 3px 3px black;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.508), rgba(0, 0, 0, 0.494)), url(../Img/laboratorio\ index.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 80vh;
+}
+.main h1 {
+    font-size: 5rem;
+    font-family: 'Ubuntu', sans-serif;  
+}
+
+.main p {
+    font-size: 3rem;
+    font-family: 'Ubuntu', sans-serif;   
+}
+.main-nosotros section >div {
+    width: 100%;
+}
+/*-----footer----*/
+.foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a3c40c5;
+    padding: 2rem;
+}
+.foot-logo {
+    width: 3rem;
+    height: 3rem;
+}
+.foot-img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.foot ul {
+    list-style: none;
+}
+
+.foot ul li a {
+    text-decoration: none;
+    color: #E5EFC1;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+    font-size: 1rem;
+}
+
+.foot ul li {
+    padding: 5px;
+}
+
+.foot ul li a:hover {
+    color: #22577E;
+    text-shadow: none;
+    transition: 1s;}
+.foot div a {
+         padding: 1rem;
+}
+
+
+/*------NOSOTROS-----*/
+
+
+/*------header-nosotros----*/
+/*.body {
+   background-image: none;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.529),rgba(0, 0, 0, 0.487)), url(./../Img/laboratorio\ nostros.jpg);
+   background-repeat: none;
+   background-size: cover;
+   background-attachment: fixed;
+}*/
+
+
+/*-----main-nosotros-----*/
+
+
+.main-nosotros {
+    /*margin-left: 2rem;
+    margin-top: 4rem;*/
+    color: #E5EFC1;
+    text-shadow: 3px 3px black;
+    background-image: none;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.529),rgba(0, 0, 0, 0.487)), url(./../Img/fondo-nosotros.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 80vh;
+}
+.main-nosotros h1 {
+    font-size: 3rem;
+    font-family: 'Ubuntu', sans-serif;  
+}
+
+.main-nosotros p {
+    font-size: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 1rem;     
+}
+
+.main-nosotros section {
+   z-index: 2;
+   display: grid;
+   grid-auto-rows: 20rem;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 1rem 1rem;
+   margin-right: 2rem;
+}
+
+.main-nosotros section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.foto-1 {
+    grid-column-start: span 2;
+}
+ .foto-4 {
+     grid-row-start: span 2;
+ }
+.foto-9 {
+    grid-column-start: span 2;
+}
+
+/*----@media query----*/
+
+/*mobile*/
+@media (min-widht: 450px) {
+    .main-nosotros {
+        background-color: red;
+    }
+}
+
+
+
+
+
+
+/*tablet*/
+@media (min-widht: 451px) and (max-widht: 960px) {
+    
+}
+
+/*-----STAFF----*/
+
+
+
+
+/*-------main-staf----*/
+.main-staff{
+    background-image: none;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.529),rgba(0, 0, 0, 0.487)), url(./../Img/fondo-nosotros.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 80vh;
+}
+.main-staff h2 {
+    /*margin-left: 2rem;
+    margin-top: 2rem;*/
+    color: #E5EFC1;
+    text-shadow: 3px 3px black;
+    font-size: 3rem;
+    font-family: 'Ubuntu', sans-serif;  
+}
+
+.main-staff section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-staff section div img {
+    margin: 2rem 1rem 2rem 1rem;
+    padding: 1rem;
+}
+.titulo-parrafo {
+    color: #E5EFC1;
+    font-size: 1rem;
+    padding: 1px;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    text-align: center;
+    
+}
+
+
+
+
+/*-----SERVICIOS----*/
+
+
+
+
+
+/*------main-servicio-----*/
+.main-servicio {
+    background-image: none;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.529),rgba(0, 0, 0, 0.487)), url(./../Img/fondo-nosotros.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 80vh;
+}
+.main-servicio h2 {
+    /*margin-left: 2rem;
+    margin-top: 2rem;*/
+    color: #E5EFC1;
+    text-shadow: 3px 3px black;
+    font-size: 3rem;
+    font-family: 'Ubuntu', sans-serif;  
+}
+.main-servicio section {
+    display: flex;
+}
+.main-servicio section >div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-servicio section div img {
+    width: 10%;
+    height: auto;
+    background-color: #e5efc152 ;
+    padding: 1rem;
+    margin: 1rem;
+}
+.main-servicio section div div h3 {
+    color: #E5EFC1;
+    text-shadow: 1px 1px black;
+    margin: 1rem;
+}
+
+
+
+/*-----CONTACTOS----*/
+
+
+
+/*------main-contacto----*/
+.main-contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: none;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.529),rgba(0, 0, 0, 0.487)), url(./../Img/fondo-nosotros.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 80vh;
+}
+.main-contacto h2 {
+    margin-left: 2rem;
+    margin-top: 4rem;
+    color: #E5EFC1;
+    text-shadow: 3px 3px black;
+    font-size: 3rem;
+    font-family: 'Ubuntu', sans-serif;
+   
+}
+.main-contacto div {
+    color: #E5EFC1;
+    text-shadow: 1px 1px black;
+    margin-top: 1rem;
+}
+.main-contacto section form input {
+    display: block;
+    margin: 5px;
+}
