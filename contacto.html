@@ -13,6 +13,8 @@
      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
      <!--CSS-->
      <link rel="stylesheet" href="./CSS/style.css">
+      <!--libreria-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> 
      <title>MICROlab</title>
     <title>Contacto</title>
 </head>
@@ -47,7 +49,7 @@
             <nav class="navbar navbar-expand-lg navbar-light bg-nav">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="./../index.html">
-                      <img src="./../Img/logo-bacterias.png" alt="Logo">
+                      <img src="./../Img/logo-bacterias.png" alt="Logo" class="animate__animated animate__shakeX">
                   </a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -82,7 +84,7 @@
          <h3>Consultas</h3>
          <h3>Opiniones</h3>
         </div>
-        <section>
+        <!--<section>
             <form>
                 <input type="text" value="Nombre y Apellido">
                 <input type="email" required value="email">
@@ -90,9 +92,17 @@
                 <textarea name="" id="" cols="30" rows="10">Mensaje</textarea>
                 <input type="submit" value="Enviar">
             </form>
-           
+        </section>-->
+        <section class="form">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
         </section>
-
     </main>
     <footer class=foot>
         <img src="./../Img/logo-bacterias.png" alt="logo" class="foot-img">
