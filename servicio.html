@@ -44,6 +44,8 @@
             </ul>
         </nav>
     </header>-->
+
+    <!--header boostrap-->
     <header>
         <header>
             <header>
@@ -79,9 +81,11 @@
             </header>
         </header>
     </header>
+   
+   <!--main con cards de boostrap + grid system-->
     <main class="main-servicio">
         <h2>Servicios</h2>
-        <section>
+        <!--<section>
             <div>
                 <img src="./../Img/hospital.png" alt="clinica">
                 <div>
@@ -96,8 +100,38 @@
                     <h3>Analisis ambientales</h3>
                 </div>
             </div>
-        </section>
+        </section>-->
+       <section class="conteiner-fluid ">
+       <div class="row">
+        <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="card" style="width: 20rem;">
+                <img src="./../Img/hospital.png" class="card-img-top" alt="Hospital" style="width: 80%;height: 70%;" class="img-fluid">
+                <div class="card-body">
+                  <p class="card-text">Analisis clinicos</p>
+                </div>
+              </div>
+        </div>
+         <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="card" style="width: 20rem;">
+                <img src="./../Img/veterinario.png" class="card-img-top" alt="Veterinario" style="width: 80%;height: 70%;" class="img-fluid">
+                <div class="card-body">
+                  <p class="card-text">Analisis veterinarios</p>
+                </div>
+              </div>
+         </div>
+          <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="card" style="width: 20rem;">
+                <img src="./../Img/ambiente.png" class="card-img-top" alt="Ambiente" style="width: 80%;height: 70%;" class="img-fluid">
+                <div class="card-body">
+                  <p class="card-text">Analisis ambientales</p>
+                </div>
+              </div>
+          </div>
+       </div>
+       </section>
     </main>
+
+    <!--footer sin grid system-->
     <footer class=foot>
         <img src="./../Img/logo-bacterias.png" alt="logo" class="foot-img">
         <ul>
