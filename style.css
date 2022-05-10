@@ -78,6 +78,9 @@ header div a img {
 .main-nosotros section >div {
     width: 100%;
 }
+
+
+
 /*-----footer----*/
 .foot {
     display: flex;
@@ -189,7 +192,7 @@ header div a img {
 /*----@media query----*/
 
 /*mobile*/
-@media (min-widht: 450px) {
+@media (min-width:450px) {
     .main-nosotros {
         background-color: red;
     }
@@ -336,4 +339,17 @@ header div a img {
 .main-contacto section form input {
     display: block;
     margin: 5px;
+}
+
+
+
+
+
+
+@media (max-width: 576px) {
+    body{
+
+        background-color:red;
+        
+        }
 }
